@@ -23,7 +23,7 @@ It lets you build cross-channel messaging across the likes of SMS, WhatsApp and 
 
  **Code for a basic whatsapp bot:** 
 
-from flask import Flask, request
+from flask import Flask, request <br/>
 import requests
 from twilio.twiml.messaging_response import MessagingResponse
 app = Flask(_name_)
